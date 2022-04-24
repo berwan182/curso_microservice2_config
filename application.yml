@@ -10,6 +10,6 @@ management:
           - "*"
 
 saudacao-service:
-  saudacao: "Ola (DEV)"
-  default-value: "Mundo (DEV)"
+  saudacao: "Ola (DEFAULT)"
+  default-value: "Mundo (DEFAULT)"
 
