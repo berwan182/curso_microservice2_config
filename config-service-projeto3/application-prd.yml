@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: saudacao-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - "*"
+
+saudacao-service:
+  saudacao: "Ola (PROD)"
+  default-value: "Mundo (PROD)"
+
